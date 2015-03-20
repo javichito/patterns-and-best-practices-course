@@ -1,0 +1,7 @@
+I WANT TO LOGIN IN THE SITE
+
+I am on page '/auth/login'
+I fill field 'email'," 'jh@mambo.pe'
+I fill field 'password'," 'prueba'
+I click '//button'
+I see 'You are logged in!'
