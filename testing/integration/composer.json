@@ -1,0 +1,14 @@
+{
+    "name": "javichitone/unit",
+    "require-dev": {
+        "phpunit/phpunit": "~4.5",
+         "whatthejeff/nyancat-phpunit-resultprinter": "~1.2"
+    },
+    "authors": [
+        {
+            "name": "Javier Hidalgo",
+            "email": "cooljavy@hotmail.com"
+        }
+    ],
+    "require": {}
+}
