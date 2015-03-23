@@ -1,48 +1,41 @@
-<html>
-	<head>
-		<title>Laravel</title>
-		
-		<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+@extends('app')
 
-		<style>
-			body {
-				margin: 0;
-				padding: 0;
-				width: 100%;
-				height: 100%;
-				color: #B0BEC5;
-				display: table;
-				font-weight: 100;
-				font-family: 'Lato';
-			}
+@section('content')
+	<div class="jumbotron">
+      <div class="container">
+        	<h1>Twitler</h1>
+        	<p>
+        		Conéctate con tus amigos y otras personas fascinantes. Visualiza actualizaciones en tiempo real de las cosas que te importan. Mira eventos en tiempo real desde todos los ángulos.
+        	</p>
+        	<p>
+        		<a class="btn btn-primary btn-lg" href="#" role="button">Crea una cuenta »</a>
+        	</p>
+     	</div>
+    </div>
 
-			.container {
-				text-align: center;
-				display: table-cell;
-				vertical-align: middle;
-			}
-
-			.content {
-				text-align: center;
-				display: inline-block;
-			}
-
-			.title {
-				font-size: 96px;
-				margin-bottom: 40px;
-			}
-
-			.quote {
-				font-size: 24px;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="container">
-			<div class="content">
-				<div class="title">Laravel 5</div>
-				<div class="quote">{{ Inspiring::quote() }}</div>
-			</div>
-		</div>
-	</body>
-</html>
+    <div class="container">
+      	<div class="row">
+        	<div class="col-md-4">
+          		<h2>Mambazing</h2>
+          		<p>
+          			De Mambo para Mambo. Descubre nuestra red social in-house.
+          		</p>
+        	</div>
+        	<div class="col-md-4">
+	          	<h2>Fascinante</h2>
+	          	<blockquote>
+				  	<p>
+				  		¡Esto ha traído felicidad a mi vida!
+				  	</p>
+					<footer>Daniel Vidaurre</footer>
+				</blockquote>
+	        </div>
+        	<div class="col-md-4">
+          		<h2>Social</h2>
+          		<p>
+          			Conoce amigos para toda la vida.
+          		</p>
+    		</div>
+    	</div>
+    </div>
+@stop

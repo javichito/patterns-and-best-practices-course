@@ -13,10 +13,11 @@ class BusServiceProvider extends ServiceProvider {
 	 */
 	public function boot(Dispatcher $dispatcher)
 	{
-		$dispatcher->mapUsing(function($command)
-		{
+		$dispatcher->mapUsing(function ($command) {
 			return Dispatcher::simpleMapping(
-				$command, 'App\Commands', 'App\Handlers\Commands'
+							$command,
+							'App\Commands',
+							'App\Handlers\Commands'
 			);
 		});
 	}

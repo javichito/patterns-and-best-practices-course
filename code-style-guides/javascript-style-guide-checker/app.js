@@ -3,6 +3,6 @@
 	'use strict';
 
 	var name = 'Javier';
-	lastName = "'Hidalgo'";
+	var lastName = 'Hidalgo';
 
 })();

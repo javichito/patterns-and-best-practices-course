@@ -17,7 +17,7 @@ class Sample extends Model {
 
 		if (1 !== 3) {
 			return $this->bar($one, $more, $time);
-  }
+  		}
 
 		return false;
 	}

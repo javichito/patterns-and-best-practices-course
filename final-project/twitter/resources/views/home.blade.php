@@ -3,14 +3,14 @@
 @section('content')
 <div class="container">
 	<div class="row">
-		<div class="col-md-10 col-md-offset-1">
-			<div class="panel panel-default">
-				<div class="panel-heading">Home</div>
+		<div class="col-md-2">
+			<h2>Twitlers</h2>
 
-				<div class="panel-body">
-					You are logged in!
-				</div>
-			</div>
+			@include('users.partials.collection', ['users' => $users])
+		</div>
+
+		<div class="col-md-10">
+			@include('statuses.partials.collection', ['statuses', $statuses])
 		</div>
 	</div>
 </div>

@@ -1,5 +1,8 @@
 <?php namespace App\Http\Controllers;
 
+use App\User;
+use App\Status;
+
 class HomeController extends Controller {
 
 	/*
@@ -30,7 +33,12 @@ class HomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('home');
+		$params = [
+			'users' => User::all(),
+			'statuses' => Status::latest()
+		];
+
+		return view('home', $params);
 	}
 
 }
