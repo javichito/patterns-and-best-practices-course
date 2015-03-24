@@ -1,6 +1,14 @@
-<div class="user item">
-	<img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" height="40">
-	<span class="name">
-		{{ $user->name }}
-	</span>
+<div class="col-sm-12 col-md-6">
+  <div class="span3 well">
+    <center>
+      <p>
+        <a href="/users/{{ $user->id }}">
+          <img class="img-circle" src="/uploads/{{ $user->image}}" height="50">
+        </a>
+      </p>
+      <a href="/users/{{ $user->id }}">
+        {{ $user->name }}
+      </a>
+    </center>
+  </div>
 </div>

@@ -8,7 +8,7 @@
         		Conéctate con tus amigos y otras personas fascinantes. Visualiza actualizaciones en tiempo real de las cosas que te importan. Mira eventos en tiempo real desde todos los ángulos.
         	</p>
         	<p>
-        		<a class="btn btn-primary btn-lg" href="#" role="button">Crea una cuenta »</a>
+        		<a class="btn btn-primary btn-lg" href="/auth/register" role="button">Crea una cuenta »</a>
         	</p>
      	</div>
     </div>
